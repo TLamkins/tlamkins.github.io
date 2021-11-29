@@ -55,10 +55,13 @@ body {
 
 <div class="topnav">
 
-    <li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="contact.html">Contact</a></li>
+<div class="topnav">
+  <a href="#home">Link</a>
+  <a href="#about">Link</a>
+  <a href="#products">Link</a>
+  <a href="#contact">Link</a>
+</div>
+
 </div>
 
 <div class="content">
