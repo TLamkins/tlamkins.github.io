@@ -54,9 +54,11 @@ body {
 <body>
 
 <div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#home">Link</a>
+  <a href="#about">Link</a>
+  <a href="#products">Link</a>
+  <a href="#contact">Link</a>
+
 </div>
 
 <div class="content">
