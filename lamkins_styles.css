@@ -1,16 +1,13 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 @import url('lamkins_layout.css');
 
 /*
-I used the example of given in week 6 for the logo header as my layout templates  
-
+ I used the example of given in week 6 for the logo header as my layout templates  
 New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 3
    
    Civil War History Style Sheet
-   Author: Peter Craft
-   Date:   2017-03-01
 
 */
 
@@ -135,7 +132,51 @@ article p:first-of-type::first-letter {
 	vertical-align: baseline;
 }
 
+body > section > article > div#cast {
+   -webkit-flex: 1 1 260px;
+   flex: 1 1 260px;
+   -webkit-align-self: center;
+   align-self: center;
+   padding-right: 15px;
+}
 
+/* Table Styles */
+
+table {
+   border: 1px solid rgba(255, 255, 255, 0.4);
+   border-collapse: collapse;
+   color: rgba(51, 51, 51, 0.9);     
+   width: 100%;
+}
+
+table caption { 
+   font-size: 1.5em;
+   margin: 0px 0px 10px 0px;
+}
+
+table td {
+   border: 1px solid rgba(255, 255, 255, 0.4);
+   vertical-align: top;
+   padding: 4px;
+   width: 50%;
+}
+
+table tbody tr:nth-of-type(odd) {
+   background-color: rgba(255, 255, 255, 0.4);
+}
+
+table tbody tr:nth-of-type(even) {
+   background-color: rgba(255, 255, 255, 0.6);
+}
+
+table a {
+   color: rgba(51, 51, 51, 0.9);
+   text-decoration: none;
+}
+
+table a:hover {
+   text-decoration: underline;
+}
 
 /* Aside Styles */
 
