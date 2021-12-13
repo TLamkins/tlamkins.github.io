@@ -3,11 +3,11 @@
 /* Structural Styles */
 
 html {
-	background-color: rgb(240, 227, 194);
+	background-color: rgb(222, 155, 20);
 }
 
 body {
-	background-color: rgb(240, 227, 194);
+	background-color: rgb(222, 218, 20);
 	font-family: Verdana, Geneva, sans-serif;	
 }
 
@@ -31,7 +31,7 @@ footer {
 /* Body Header Styles */
 
 body > header  {
-	background-color: rgb(230, 232, 109);
+	background-color: rgb(222, 218, 20);
 }
 
 
