@@ -3,7 +3,7 @@
 /* Structural Styles */
 
 html {
-	background-color: rgb(151, 151, 151);
+	background-color: rgb(240, 227, 194);
 }
 
 body {
@@ -20,7 +20,7 @@ nav a {
 }
 
 footer {
-	background-color: rgb(101, 101, 101);
+	background-color: rgb(240, 219, 165);
 	font-size: 0.8em;
 	text-align: center;
 	color: white;
@@ -31,13 +31,13 @@ footer {
 /* Body Header Styles */
 
 body > header  {
-	background-color: rgb(97,97,211);
+	background-color: rgb(230, 232, 109);
 }
 
 
 body > header > h1 {
 	font-family: Limelight, cursive;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(209, 110, 23, 0.8);
 	font-size: 4vw;
 	margin: 0px;
 	padding: 10px 20px;
