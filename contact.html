@@ -1,24 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>Lamkins Daylily Farm & Nursery</title>
-	<link href="lamkins.css" rel="stylesheet" /> 
-	<link href="lamkins2.css" rel="stylesheet" /> 
+<!--
+ survey code taken from tutorial 7
+   -->
+   <meta charset="utf-8" />
+   <title>Lamkins Daylily Farm & Nursery</title>
+   <link href="lamkins_styles.css" rel="stylesheet" />
+   <link href="rb_forms.css" rel="stylesheet" />
 </head>
-	
+
 <body>
-<header>
-	<img src ="Lamkins.jpg" alt="Lamkins logo" />
-	<nav class="horizontal" id="topLinks" >
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul>	
-	</nav>
-</header>
+
+   <header>
+   <img src="lamkinsheader.jpg" alt="your business logo" />
+       <nav id="mainLinks">
+         <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Products">Products</a></li>
+            <li><a href="Contacts">Contacts</a></li>
+
+         </ul>
+      </nav>      
+   </header>
+
   
-	</body>	
-  </html>
+
+   <section>
+
+      <article>
+         <h2>Lamkins Daylily Farm & Nursery</h2>
+         <form id="survey" action="http://www.example.com/redball/survey" method="post">
+		<fieldset id="custInfo">
+			<legend>Join our monthly Newsletter!</legend>
+		
+		<div class="formRow">
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="First and Last name" />
+		</div>
+		
+		<div class="formRow">
+			<label for="street">Street address</label>
+			<input name="custStreet" id="street" type="text" />
+		</div>
+
+		<div class="formRow">
+			<label for="city">City</label>
+			<input name="custCity" id="city" type="text" value="Omaha" />
+		</div>	
+			
+		<div class="formRow">	
+			<label for="state">State</label>
+			<input name="custState" id="state" type="text" value="NE" />
+		</div>
+
+		<div class="formRow">
+			<label for="zip">Postal code</label>
+			<input name="custZip" id="zip" type="text" placeholder="nnnnn" />
+		</div>
+
+		<div class="formRow">
+			<label for="tel">Phone Number</label>
+			<input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" />
+		</div>
+
+		<div class="formRow">
+			<label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" />
+		</div>	
+		
+		
+		<div class="formRow">
+			<label for="imfo">Where did you hear about us?<br /> (select all that apply)</label>
+			<select name="infoSrc" id="info" size="5" multiple>
+				<option value="internet">Internet</option>
+				<option value="mag">Magazine</option>
+				<option value="news">Newspaper</option>
+				<option value="word">Word of Mouth</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+		
+		<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+			<label for "mailCB">Add me to your mailing list for the newsletter!</label>
+			
+		<div id="buttons">
+				<input type="submit" value="Submit My Survey" />
+				<input type="reset" value="Cancel" />
+			</div>	
+		
+		</div>
+		
+		</fieldset>
+		
+		
+	 	
+		
+	 </form>
+		
+    </article>
+
+      <aside>
+         <h1>What you can look forward to</h1>
+     
+         <p>
+			The monthly newsletter will be sent via e-mail, if an e-mail is not provided then a hardcopy will be delivered via USPS. You can expect the the newsletter to be delivered the first week of each month. There are articles from the Owner, any Daylily news, new arrivals, and special sales!
+         </p>
+
+      </aside>
+
+   </section>
+
+   <footer>
+      <p>
+         lamkinsdaylilyfn@gmail.com |   405 12th Ave Union, NE 68455   | 402-222-5555
+      </p>
+   </footer>
+
+</body>
+</html>
