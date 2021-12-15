@@ -115,8 +115,6 @@ section {
 }
 
 section header h1, h2 {
-	background-color: rgb(220, 220, 220);
-	color: rgb(220, 220, 220);
 	font-size: 2.2em;
 	padding-left: 10px;	
 }
