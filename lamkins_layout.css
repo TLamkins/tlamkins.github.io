@@ -49,7 +49,7 @@ body > nav {
 
 body > section {
 	width: 90%;
-	float: center;
+	float: none;
 }
 
 body > section > article {
